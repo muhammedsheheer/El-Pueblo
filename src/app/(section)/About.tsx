@@ -19,7 +19,7 @@ function About() {
       </div>
       <div className="z-50 flex w-full flex-col gap-8 md:gap-14">
         <div>
-          <h1 className="text-center font-times_new_roman text-5xl font-[400] uppercase text-[#FEFFFF] md:text-[15vw] md:tracking-[8px]">
+          <h1 className="whitespace-nowrap text-center font-times_new_roman text-5xl font-[400] uppercase text-[#FEFFFF] md:text-[15vw] md:tracking-[8px]">
             EL PUEBLO
           </h1>
         </div>
@@ -31,7 +31,7 @@ function About() {
             viewport={{ once: false }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
-            <p className="max-w-[450px] font-poppins text-sm font-[300] uppercase text-[#d7d7d7] md:mt-8 md:text-xl">
+            <p className="max-w-[450px] font-poppins text-sm font-[300] uppercase text-[#d7d7d7] md:mt-8 md:text-lg">
               El Pueblo is a Basque-influenced Spanish tapas bar and restaurant
               nestled in the heart of Huyton Village. Established in 2019, our
               mission is to bring a slice of Spain to the local community by
@@ -40,7 +40,7 @@ function About() {
             </p>
             <div>
               <Link href={"/menu"}>
-                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-[#C5DAE8] px-6 py-6 uppercase text-black hover:bg-[#bedaec] md:px-7 md:py-7">
+                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-[#C5DAE8] px-6 py-6 uppercase text-black hover:bg-[#bedaec] md:px-5 md:py-6">
                   <ArrowRight />
                   Order Now
                 </Button>
@@ -65,7 +65,7 @@ function About() {
             viewport={{ once: false }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
-            <p className="max-w-[450px] font-poppins text-sm font-[300] uppercase text-[#d7d7d7] md:text-xl">
+            <p className="max-w-[450px] font-poppins text-sm font-[300] uppercase text-[#d7d7d7] md:text-lg">
               El Pueblo is a Basque-influenced Spanish tapas bar and restaurant
               nestled in the heart of Huyton Village. Established in 2019, our
               mission is to bring a slice of Spain to the local community by

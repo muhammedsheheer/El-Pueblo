@@ -21,7 +21,7 @@ const Gallery: React.FC = () => {
             <motion.img
               src="/images/home/gallery/1.png"
               alt="1"
-              className="z-50 h-[200px] w-full md:h-[450px]"
+              className="z-50 h-[200px] w-full md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -30,7 +30,7 @@ const Gallery: React.FC = () => {
             <motion.img
               src="/images/home/gallery/2.png"
               alt="2"
-              className="z-50 h-[200px] w-full md:h-[450px]"
+              className="z-50 h-[200px] w-full md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -41,7 +41,7 @@ const Gallery: React.FC = () => {
             <motion.img
               src="/images/home/gallery/3.png"
               alt="3"
-              className="z-50 h-[200px] w-full md:h-[900px]"
+              className="z-50 h-[200px] w-full md:h-[804px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -52,7 +52,7 @@ const Gallery: React.FC = () => {
             <motion.img
               src="/images/home/gallery/4.png"
               alt="4"
-              className="z-50 h-[200px] w-full md:h-[450px]"
+              className="z-50 h-[200px] w-full md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -61,7 +61,7 @@ const Gallery: React.FC = () => {
             <motion.img
               src="/images/home/gallery/5.png"
               alt="5"
-              className="z-50 h-[200px] w-full md:h-[450px]"
+              className="z-50 h-[200px] w-full md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}

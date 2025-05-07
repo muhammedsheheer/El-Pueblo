@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 bg-black/60" />
 
       <div className="relative mt-16 flex h-full flex-col items-center justify-center gap-3 md:ml-16">
-        <h1 className="text-center font-times_new_roman text-6xl font-[400] uppercase text-[#FEFFFF] md:text-9xl md:tracking-[-3px]">
+        <h1 className="text-center font-times_new_roman text-6xl font-[400] uppercase text-[#FEFFFF] md:text-8xl md:tracking-[-3px]">
           {inView &&
             [...text].map((letter, i) => (
               <motion.span
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
         </h1>
         <div className="pt-6 md:pt-14">
           <Link
-            className="flex flex-row items-center justify-center gap-1 border border-[#C5DAE8] bg-[#C5DAE8] px-5 py-3 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-black hover:bg-[#bedaec] md:px-7 md:py-4"
+            className="flex flex-row items-center justify-center gap-1 border border-[#C5DAE8] bg-[#C5DAE8] px-5 py-3 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-black hover:bg-[#bedaec] md:px-5 md:py-3"
             href={"/table-booking"}
           >
             <ArrowRight />

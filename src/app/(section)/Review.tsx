@@ -18,7 +18,7 @@ const Reviews = ({}) => {
         <div className="flex h-full w-full flex-col items-center justify-center gap-2 lg:gap-4">
           <div className="flex flex-col items-center justify-center gap-2">
             <motion.h1
-              className="pb-6 text-center font-poppins text-3xl font-[400] uppercase tracking-[3.2px] text-[#616161] md:pb-16 md:text-7xl"
+              className="pb-6 text-center font-poppins text-3xl font-[400] uppercase tracking-[3.2px] text-[#616161] md:pb-16 md:text-6xl"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}

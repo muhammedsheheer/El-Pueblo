@@ -22,7 +22,7 @@ const Reserve: React.FC = () => {
             </p>
             <div>
               <Link href={"/menu"}>
-                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-[#C5DAE8] px-6 py-6 uppercase text-black hover:bg-[#bedaec] md:px-7 md:py-7">
+                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-[#C5DAE8] px-6 py-6 uppercase text-black hover:bg-[#bedaec] md:px-6 md:py-5">
                   <ArrowRight />
                   Order Now
                 </Button>
@@ -50,7 +50,7 @@ const Reserve: React.FC = () => {
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
         </div> */}
-        <div className="relative z-50 w-full overflow-hidden px-8 pt-6 md:w-[55%] md:px-60 md:pt-20">
+        <div className="relative z-50 w-full overflow-hidden px-8 pt-6 md:w-[55%] md:px-40 md:pt-20">
           {/* Background image behind the content */}
           <Image
             src="/images/home/reservation/bg.png"
@@ -63,7 +63,7 @@ const Reserve: React.FC = () => {
           <motion.img
             src="/images/home/reservation/image.png"
             alt="image"
-            className="relative z-10 h-full w-full"
+            className="relative z-10 h-full w-full object-cover"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}

@@ -27,7 +27,7 @@ const Menu: React.FC = () => {
             <motion.img
               src="/images/home/menu/1.png"
               alt="1"
-              className="z-50 h-[150px] w-full md:h-[550px]"
+              className="z-50 h-[150px] w-full md:h-[450px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -35,7 +35,7 @@ const Menu: React.FC = () => {
             />
             <div className="hidden md:block">
               <Link href={"/menu"}>
-                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-transparent px-8 py-6 font-poppins uppercase text-[#fff] ring-[1px] ring-[#fff] hover:bg-[#fff] hover:text-black">
+                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-transparent px-6 py-5 font-poppins uppercase text-[#fff] ring-[1px] ring-[#fff] hover:bg-[#fff] hover:text-black">
                   View Menu
                 </Button>
               </Link>
@@ -45,7 +45,7 @@ const Menu: React.FC = () => {
             <motion.img
               src="/images/home/menu/2.png"
               alt="2"
-              className="h-[150px] w-full md:h-[550px]"
+              className="h-[150px] w-full md:h-[450px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -53,7 +53,7 @@ const Menu: React.FC = () => {
             />
             <div className="hidden md:block">
               <Link href={"/menu"}>
-                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-transparent px-8 py-6 font-poppins uppercase text-[#fff] ring-[1px] ring-[#fff] hover:bg-[#fff] hover:text-black">
+                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-transparent px-6 py-5 font-poppins uppercase text-[#fff] ring-[1px] ring-[#fff] hover:bg-[#fff] hover:text-black">
                   View Menu
                 </Button>
               </Link>
@@ -63,7 +63,7 @@ const Menu: React.FC = () => {
             <motion.img
               src="/images/home/menu/3.png"
               alt="3"
-              className="h-[150px] w-full md:h-[550px]"
+              className="h-[150px] w-full md:h-[450px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -71,7 +71,7 @@ const Menu: React.FC = () => {
             />
             <div className="hidden md:block">
               <Link href={"/menu"}>
-                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-transparent px-8 py-6 font-poppins uppercase text-[#fff] ring-[1px] ring-[#fff] hover:bg-[#fff] hover:text-black">
+                <Button className="relative z-40 flex items-center justify-center gap-3 rounded-none bg-transparent px-6 py-5 font-poppins uppercase text-[#fff] ring-[1px] ring-[#fff] hover:bg-[#fff] hover:text-black">
                   View Menu
                 </Button>
               </Link>

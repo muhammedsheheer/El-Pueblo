@@ -11,7 +11,7 @@ const Follow: React.FC = () => {
       <div className="hidden flex-col gap-8 md:flex md:gap-20">
         <div className="flex w-full flex-col gap-4 px-4 md:px-[60px] 2xl:px-[80px]">
           <motion.h1
-            className="pb-6 text-center font-poppins text-3xl font-[400] uppercase tracking-[3.2px] text-[#616161] md:pb-16 md:text-7xl"
+            className="pb-6 text-center font-poppins text-3xl font-[400] uppercase tracking-[3.2px] text-[#616161] md:pb-16 md:text-6xl"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false }}
@@ -27,7 +27,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-[400px]"
+                className="h-[300px] w-full object-cover md:h-[350px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -49,12 +49,12 @@ const Follow: React.FC = () => {
                 alt="logo"
                 className="w-12"
               /> */}
-              <Link href={"https://www.instagram.com/antephan.baklava.uk/"}>
+              <Link href={"https://www.instagram.com/elpuebloliverpool/"}>
                 <Icons.instagram className="h-24 w-24 text-[#3D97B3]" />
               </Link>
               <div>
                 <Link
-                  href={"https://www.instagram.com/antephan.baklava.uk/"}
+                  href={"https://www.instagram.com/elpuebloliverpool/"}
                   target="_blank"
                   className="text-md text-center font-open_sans font-[400] uppercase text-[#3D97B3] md:text-xl"
                 >
@@ -69,7 +69,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-[400px]"
+                className="h-[300px] w-full object-cover md:h-[350px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -83,7 +83,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-[400px]"
+                className="h-[300px] w-full object-cover md:h-[350px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -99,7 +99,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-[400px]"
+                className="h-[300px] w-full object-cover md:h-[350px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -113,7 +113,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="h-[300px] w-full object-cover md:h-[400px]"
+                className="h-[300px] w-full object-cover md:h-[350px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -128,7 +128,7 @@ const Follow: React.FC = () => {
                 width={160}
                 height={160}
                 alt="logo"
-                className="z-0 h-[300px] w-full object-cover md:h-[400px]"
+                className="z-0 h-[300px] w-full object-cover md:h-[350px]"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false }}
@@ -180,12 +180,12 @@ const Follow: React.FC = () => {
                 alt="logo"
                 className="w-12"
               /> */}
-              <Link href={"https://www.instagram.com/antephan.baklava.uk/"}>
+              <Link href={"https://www.instagram.com/elpuebloliverpool/"}>
                 <Icons.instagram className="h-24 w-24 text-[#3D97B3]" />
               </Link>
               <div>
                 <Link
-                  href={"https://www.instagram.com/antephan.baklava.uk/"}
+                  href={"https://www.instagram.com/elpuebloliverpool/"}
                   target="_blank"
                   className="text-md text-center font-open_sans font-[400] uppercase text-[#3D97B3] md:text-xl"
                 >

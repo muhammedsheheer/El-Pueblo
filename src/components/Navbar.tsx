@@ -45,8 +45,8 @@ const Navbar = ({
               href={"/"}
               className={
                 pathname === "/" || pathname === "/table-booking"
-                  ? "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
-                  : "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#fff]"
+                  ? "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
+                  : "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               }
             >
               Home
@@ -55,8 +55,8 @@ const Navbar = ({
               href={"/contact"}
               className={
                 pathname === "/" || pathname === "/table-booking"
-                  ? "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
-                  : "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#fff]"
+                  ? "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
+                  : "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               }
             >
               Contact Us
@@ -67,15 +67,15 @@ const Navbar = ({
                 width={281}
                 height={74}
                 alt="logo"
-                className="mt-4 w-40"
+                className="mt-4 w-36"
               />
             </Link>
             <Link
               href={"/menu"}
               className={
                 pathname === "/" || pathname === "/table-booking"
-                  ? "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
-                  : "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#fff]"
+                  ? "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
+                  : "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               }
             >
               Menu
@@ -85,8 +85,8 @@ const Navbar = ({
               href={"/about-us"}
               className={
                 pathname === "/" || pathname === "/table-booking"
-                  ? "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
-                  : "pt-4 text-center font-poppins text-base font-[400] uppercase tracking-[2px] text-[#fff]"
+                  ? "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
+                  : "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
               }
             >
               Our Story
