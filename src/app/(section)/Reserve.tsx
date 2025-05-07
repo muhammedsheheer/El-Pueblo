@@ -16,7 +16,7 @@ const Reserve: React.FC = () => {
             </h1>
             <p className="max-w-[400px] font-poppins text-sm font-[300] uppercase text-[#fff] md:text-base">
               We would love to welcome you to El Pueblo! reserve your table
-              easily to ensure the best dining experience. Whether it's an
+              easily to ensure the best dining experience. Whether it`s an
               intimate dinner, a gathering with friends, or a family
               celebration, we’re here to make your visit memorable.
             </p>
