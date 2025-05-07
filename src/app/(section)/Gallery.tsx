@@ -19,18 +19,18 @@ const Gallery: React.FC = () => {
         <div className="hidden flex-row gap-4 md:flex">
           <div className="flex w-[33%] flex-col gap-4">
             <motion.img
-              src="/images/home/gallery/1.png"
+              src="/images/home/gallery/1.jpg"
               alt="1"
-              className="z-50 h-[200px] w-full md:h-[400px]"
+              className="z-50 h-[200px] w-full object-cover md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             />
             <motion.img
-              src="/images/home/gallery/2.png"
+              src="/images/home/gallery/2.jpg"
               alt="2"
-              className="z-50 h-[200px] w-full md:h-[400px]"
+              className="z-50 h-[200px] w-full object-cover md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -39,7 +39,7 @@ const Gallery: React.FC = () => {
           </div>
           <div className="flex w-[33%] flex-col gap-4">
             <motion.img
-              src="/images/home/gallery/3.png"
+              src="/images/home/gallery/3.jpg"
               alt="3"
               className="z-50 h-[200px] w-full md:h-[804px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -50,18 +50,18 @@ const Gallery: React.FC = () => {
           </div>
           <div className="flex w-[33%] flex-col gap-4">
             <motion.img
-              src="/images/home/gallery/4.png"
+              src="/images/home/gallery/4.jpg"
               alt="4"
-              className="z-50 h-[200px] w-full md:h-[400px]"
+              className="z-50 h-[200px] w-full object-cover md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
             />
             <motion.img
-              src="/images/home/gallery/5.png"
+              src="/images/home/gallery/5.jpg"
               alt="5"
-              className="z-50 h-[200px] w-full md:h-[400px]"
+              className="z-50 h-[200px] w-full object-cover md:h-[400px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
@@ -72,36 +72,36 @@ const Gallery: React.FC = () => {
         {/* mobile screen */}
         <div className="grid grid-cols-2 gap-2 md:hidden">
           <motion.img
-            src="/images/home/gallery/1.png"
+            src="/images/home/gallery/1.jpg"
             alt="1"
-            className="z-50 h-[200px] w-full md:h-[350px]"
+            className="z-50 h-[200px] w-full object-cover md:h-[350px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/2.png"
+            src="/images/home/gallery/2.jpg"
             alt="2"
-            className="z-50 h-[200px] w-full md:h-[350px]"
+            className="z-50 h-[200px] w-full object-cover md:h-[350px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/4.png"
+            src="/images/home/gallery/4.jpg"
             alt="4"
-            className="z-50 h-[200px] w-full md:h-[350px]"
+            className="z-50 h-[200px] w-full object-cover md:h-[350px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/5.png"
+            src="/images/home/gallery/5.jpg"
             alt="5"
-            className="z-50 h-[200px] w-full md:h-[350px]"
+            className="z-50 h-[200px] w-full object-cover md:h-[350px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
             viewport={{ once: false, amount: 0.5 }}

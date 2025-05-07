@@ -23,7 +23,7 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/1.png"}
+                src={"/images/home/follow/1.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -65,7 +65,7 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/2.png"}
+                src={"/images/home/follow/2.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -79,7 +79,7 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/3.png"}
+                src={"/images/home/follow/3.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -95,7 +95,7 @@ const Follow: React.FC = () => {
             <div className="flex w-full items-center justify-center md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/4.png"}
+                src={"/images/home/follow/4.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -109,7 +109,7 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[50%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/5.png"}
+                src={"/images/home/follow/5.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -124,7 +124,7 @@ const Follow: React.FC = () => {
             <div className="z-0 flex w-full items-center justify-center md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/6.png"}
+                src={"/images/home/follow/6.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -154,7 +154,7 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/1.png"}
+                src={"/images/home/follow/1.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -196,7 +196,7 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/2.png"}
+                src={"/images/home/follow/2.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -210,7 +210,7 @@ const Follow: React.FC = () => {
             <div className="w-full md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/3.png"}
+                src={"/images/home/follow/3.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -226,7 +226,7 @@ const Follow: React.FC = () => {
             <div className="flex w-full items-center justify-center md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/4.png"}
+                src={"/images/home/follow/4.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -240,7 +240,7 @@ const Follow: React.FC = () => {
             {/* <div className="w-full md:w-[50%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/5.png"}
+                src={"/images/home/follow/5.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
@@ -255,7 +255,7 @@ const Follow: React.FC = () => {
             <div className="z-0 flex w-full items-center justify-center md:w-[25%]">
               {" "}
               <motion.img
-                src={"/images/home/follow/6.png"}
+                src={"/images/home/follow/6.jpg"}
                 width={160}
                 height={160}
                 alt="logo"
