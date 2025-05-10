@@ -10,7 +10,6 @@ export const TableBookingValidation = z.object({
     guests: z.string().min(1, { message: "Please select number of guests." }),
     date: z.date({ required_error: "Please select a date." }),
     time: z.string().min(1, { message: "Please select a time." }),
-    place: z.string().min(1, { message: "Please Select place" }),
     request: z.string().optional(),
 });
 
