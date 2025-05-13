@@ -39,9 +39,9 @@ const Gallery: React.FC = () => {
           </div>
           <div className="flex w-[33%] flex-col gap-4">
             <motion.img
-              src="/images/home/gallery/3.jpg"
+              src="/images/home/gallery/6.jpg"
               alt="3"
-              className="z-50 h-[200px] w-full md:h-[804px]"
+              className="z-50 h-[200px] w-full object-cover md:h-[804px]"
               initial={{ opacity: 0, y: 50, scale: 0.8 }}
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: false, amount: 0.5 }}
