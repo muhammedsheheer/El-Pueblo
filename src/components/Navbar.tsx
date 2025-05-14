@@ -91,6 +91,16 @@ const Navbar = ({
             >
               Our Story
             </Link>
+            <Link
+              href={"/table-booking"}
+              className={
+                pathname === "/" || pathname === "/table-booking"
+                  ? "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#F4F4F4]"
+                  : "pt-4 text-center font-poppins text-sm font-[400] uppercase tracking-[2px] text-[#fff]"
+              }
+            >
+              Table Booking
+            </Link>
           </div>
         </div>
       </div>
