@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
         />
         Your browser does not support the video tag.
       </video>
-      <div className="absolute inset-0 bg-black/60" />
+      <div className="absolute inset-0" />
 
       <div className="relative mt-16 flex h-full flex-col items-center justify-center gap-3 md:ml-16">
         <h1 className="text-center font-times_new_roman text-6xl font-[400] uppercase text-[#FEFFFF] md:text-8xl md:tracking-[-3px]">
