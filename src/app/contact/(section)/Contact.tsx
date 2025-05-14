@@ -135,7 +135,7 @@ const Contact = ({}) => {
                 <div className="flex flex-col gap-4">
                   <Link
                     className="font-poppins text-[#9C9E9F]"
-                    href={"mailto:umutsahindal@hotmail.com"}
+                    href={"mailto:info@elpueblohuyton.com"}
                   >
                     info@elpueblohuyton.com
                   </Link>
